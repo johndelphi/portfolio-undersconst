@@ -8,7 +8,7 @@ var header =
         '<ul>'+
             '<li><a id="home-button">Home</a></li>'+
             '<li><a id="programming-button">Programming</a></li>'+
-            '<li><a href="https://cambridge.nuvustudio.com/sebastian-park" target="_blank">Design</a></li>'+
+            '<li><a href="https://www.hackster.io/johnmickey281" target="_blank">Design</a></li>'+
             '<li><a id="Photography-button">Photography</a></li>'+
             '<li><a id="contact-button">Contact</a></li>'+
             // '<li></li>'+
@@ -22,23 +22,23 @@ var header =
 var footer = 
     '<div class="page-footer">'+
     '<div class="flex">'+
-        '<a href="https://github.com/Seb-Park" target="_blank">'+
+        '<a href="https://github.com/johndelphi" target="_blank">'+
             '<i class="fab fa-github"></i>'+
         '</a>'+
     '</div>'+
     '<div class="flex">'+
-        '<a href="https://play.google.com/store/apps/developer?id=Sebastian+Park" target="_blank">'+
+        '<a href="" target="_blank">'+
             '<i class="fab fa-google-play"></i>'+
         '</a>'+
     '</div>'+
     '<div class="flex">'+
-        '<a href="http://sebastian-park.netlify.com/images/resume.pdf" target="_blank">'+
+        '<a href="" target="_blank">'+
             '<i class="far fa-file-pdf"></i>'+
             '<!--far fa-file-alt or fa-file-pdf-->'+
         '</a>'+
     '</div>'+
     '<div class="flex">'+
-        '<a href="https://devpost.com/Seb-park" target="_blank">'+
+        '<a href="https://www.hackster.io/johnmickey281" target="_blank">'+
             '<i class="fab fa-dev"></i>'+
             '</div>';
 document.getElementById("insert-header").innerHTML=header;
