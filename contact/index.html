@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - John muema</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Quicksand:300,400,700&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/images/sparkSoft2.png" />
+</head>
+
+<body>
+    <div class="fade-out">
+    </div>
+    <div id="fader">
+    </div>
+    <div id="insert-header"></div>
+    <div class="contact-page-head">
+        <!-- <h1><strike>Want to talk?</strike><br>Currently under maintenance due to static hosting. Contact sparksoftgame@gmail.com.</h1> -->
+        <h1>Want to connect ?</h1>
+    </div>
+    <div class="contact-form">
+        <!-- <form id="contact-form" method="post" action="testcontactform.php">
+            <input name="name" type="name" class="form-control" placeholder="First and Last Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+            <textarea name="message" type="message" class="form-control" placeholder="Message" rows=4
+                required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="SUBMIT">
+        </form> -->
+        <form action="https://formspree.io/xqkewpva" method="POST">
+            <!-- <label> -->
+            <input type="text" name="name" class="form-control" placeholder="First and Last Name" required><br>
+            <!-- </label> -->
+            <!-- <label> -->
+            <input type="email" name="_replyto" class="form-control" placeholder="Email" required><br>
+            <!-- </label> -->
+            <!-- <label> -->
+            <textarea name="message" class="form-control" placeholder="Message" rows=4 required></textarea>
+            <!-- </label> -->
+            <br>
+            <!-- <a href="https://www.sebbypark.com/contact/thank-you/"> -->
+            <input type="submit" value="Submit" class="form-control submit">
+            <!-- </a> -->
+            <!-- <input type="hidden" name="_next" value="https://sebbypark.com/contact/thank-you/"/> -->
+        </form>
+    </div>
+    <div id="insert-footer">
+    </div>
+</body>
+<script src="/js/navigation.js"></script>
+<script src="/js/insertHeaderFooter.js"></script>
+<script src="/js/anim.js"></script>
+
+</html>
